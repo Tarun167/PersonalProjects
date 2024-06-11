@@ -1,10 +1,9 @@
 import kivy
-from kivy.uix.label import Label
-from kivy.app import App
+from AppGUI import MainWindow
 
 class MyApp(App):
     def build(self):
-        return Label(text="Hello")
+        return MainWindow.
 
 
 if __name__ == "__main__":
