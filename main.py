@@ -1,9 +1,9 @@
-import kivy
+from kivy.app import App
 from AppGUI import MainWindow
 
 class MyApp(App):
     def build(self):
-        return MainWindow.
+        return MainWindow()
 
 
 if __name__ == "__main__":
