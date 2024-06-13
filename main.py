@@ -1,7 +1,7 @@
-from kivy.app import App
+from kivymd.app import MDApp
 from AppGUI import MainWindow
 
-class MyApp(App):
+class MyApp(MDApp):
     def build(self):
         return MainWindow()
 

@@ -1,7 +1,4 @@
-import kivy
-from kivy.uix.label import Label
-from kivy.uix.textinput import TextInput
-from kivy.uix.floatlayout import FloatLayout
+ifrom kivymd.uix.floatlayout import FloatLayout
 
 
 class MainWindow(FloatLayout):
